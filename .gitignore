@@ -1,0 +1,122 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch Model Checkpoints (large files)
+*.pt
+*.pth
+*.ckpt
+*.weights
+modern_m5.pt
+
+# Keep example model (it's part of the original repo)
+!examples/model/**/*.pth
+
+# Data directories (can be large)
+data/CAT_DB/
+data/*.wav
+data/*.mp3
+data/*.m4a
+
+# DVC
+.dvc/cache/
+.dvc/tmp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Logs
+*.log
+logs/
+mlruns/
+
+# Checkpoints directory (usually contains large files)
+/checkpoints/
+*.checkpoint
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Test outputs
+test_output/
+outputs/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+
+# Images (optional - remove if you want to include generated images)
+# *.png
+# *.jpg
+# *.jpeg
+
+# Keep specific example images
+!examples/*.png
+!examples/*.jpg

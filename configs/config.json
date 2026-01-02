@@ -1,6 +1,6 @@
 {
     "model_name": "doge",
-    "dataset_path": "data/meow_categories",
+    "dataset_path": "data/CAT_DB",
     "kernel_sizes": [80, 3, 3, 3],
     "filters": [64, 64, 128, 128],
     "strides": [16, 1, 1, 1],
